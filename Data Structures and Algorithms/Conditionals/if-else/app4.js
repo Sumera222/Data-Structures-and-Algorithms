@@ -1,11 +1,14 @@
 /*Suppose you are given a number and you need to
  check whether it’s even or odd. How'd you do that?*/
+const number = prompt("Enter a number: ");
 
- let x= 10;
- Let y=(x/10)
- if (number/2 == 0==) { // if number is divisible by 2 then it is odd
-     console.log("Even number");
- } else {
-     console.log("odd number");
+ //check if the number is even
+ if(number % 2 == 0) {
+     console.log("The number is even.");
  }
- //I cannot solve above coding, need to search about it 
+ 
+ // if the number is odd
+ else {
+     console.log("The number is odd.");
+ 
+  }
