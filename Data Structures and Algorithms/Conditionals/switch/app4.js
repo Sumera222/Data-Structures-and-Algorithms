@@ -1,7 +1,17 @@
 /*Suppose you are given a number and you need to
-check whether it’s even or odd. How'd you do that?*/
+ check whether it’s even or odd. using switch case */
 
+ const number = prompt("Enter a number: ");
+ switch(number % 2==0){  
  
- //Using switch case to find even and odd number.
- {
+         case true:
+            console.log("Even number");
+            break;
+     
+        case false:
+            console.log("Odd number");
+            break;
+    }
+   
+ 
      
